@@ -15,9 +15,18 @@ Free Python library to fetch all the available free market data from most provid
 
 
 Easy python API endpoint access for free.
-
+install:
 ```
 uv add finpipe
+```
+use:
+```
+from edgar import set_identity
+from finpipe.fundamentals.financials import show
+
+
+set_identity("youremail@gmail.com")
+show("NVDA", "income", headlines=True)
 ```
 
 this library uses the uv package manager.
