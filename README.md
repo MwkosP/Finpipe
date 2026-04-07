@@ -28,6 +28,8 @@ from finpipe.fundamentals.financials import show
 set_identity("youremail@gmail.com")
 show("NVDA", "income", headlines=True)
 ```
+output:
+![Bittensor](assets/imgs/finpipef.png)
 
 this library uses the uv package manager.
 
