@@ -4,6 +4,13 @@ Free Python library to fetch all the available free market data from most provid
 
 
 #LIBRARY UNDER CONSTRUCTION!!!
+## Authors
+
+| Role | GitHub |
+|------|--------|
+| Code & Maintenance | [@patramanis](https://github.com/patramanis) |
+| Architecture | [@mwkosp](https://github.com/mwkosp) |
+
 
 - Supporting most of the data for categories: Technicals, Fundamentals, Futures-Options(limited), tick data, Macroeconomic data, RSS feeds and more..
 - Rate limiting avoidance support.
