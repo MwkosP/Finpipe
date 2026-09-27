@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="120" viewBox="0 0 720 120" role="img" aria-labelledby="title description">
+  <title id="title">Finpipe</title>
+  <desc id="description">Finpipe wordmark</desc>
+  <rect width="720" height="120" rx="14" fill="#0d1117"/>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.08;0.18;0.82;1" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="-20 0;-20 0;0 0;0 0;0 0" keyTimes="0;0.08;0.18;0.82;1" dur="5s" repeatCount="indefinite"/>
+    <text x="32" y="78" fill="#f0f6fc" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-3">Fin</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.18;0.3;0.82;1" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="20 0;20 0;0 0;0 0;0 0" keyTimes="0;0.18;0.3;0.82;1" dur="5s" repeatCount="indefinite"/>
+    <text x="139" y="78" fill="#3fb950" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-3">pipe</text>
+  </g>
+  <path d="M32 101H392" fill="none" stroke="#3fb950" stroke-dasharray="360" stroke-dashoffset="360" stroke-width="6" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" values="360;360;0;0;360" keyTimes="0;0.3;0.48;0.82;1" dur="5s" repeatCount="indefinite"/>
+  </path>
+</svg>

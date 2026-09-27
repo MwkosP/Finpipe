@@ -1,33 +1,42 @@
-"""Provider adapters used by technicals and fundamentals."""
+"""Provider integrations, kept in one file per vendor."""
 
-from . import alpha_vantage_adapter
-from . import ccxt_adapter
-from . import ccxt_pro_adapter
-from . import coingecko_adapter
-from . import datareader_adapter
-from . import finnhub_adapter
-from . import fmpsdk_adapter
-from . import ib_insync_adapter
-from . import polygon_adapter
-from . import sec_downloader_adapter
-from . import sec_edgar_adapter
-from . import simfinapi_adapter
-from . import tardis_adapter
-from . import yfinance_adapter
+from . import (
+    alpha_vantage,
+    ccxt,
+    ccxt_pro,
+    coingecko,
+    datareader,
+    finnhub,
+    fmpsdk,
+    ib_insync,
+    polygon,
+    sec_downloader,
+    sec_edgar,
+    simfinapi,
+    tardis,
+    yfinance,
+)
+from .sec_edgar import getCompany, getFilings, getFinancials, getQuarterlyFinancials
+from .yfinance import getOhlcv
 
 __all__ = [
-    "alpha_vantage_adapter",
-    "ccxt_adapter",
-    "ccxt_pro_adapter",
-    "coingecko_adapter",
-    "datareader_adapter",
-    "finnhub_adapter",
-    "fmpsdk_adapter",
-    "ib_insync_adapter",
-    "polygon_adapter",
-    "sec_downloader_adapter",
-    "sec_edgar_adapter",
-    "simfinapi_adapter",
-    "tardis_adapter",
-    "yfinance_adapter",
+    "alpha_vantage",
+    "ccxt",
+    "ccxt_pro",
+    "coingecko",
+    "datareader",
+    "finnhub",
+    "fmpsdk",
+    "ib_insync",
+    "polygon",
+    "sec_downloader",
+    "sec_edgar",
+    "simfinapi",
+    "tardis",
+    "yfinance",
+    "getOhlcv",
+    "getCompany",
+    "getFinancials",
+    "getQuarterlyFinancials",
+    "getFilings",
 ]

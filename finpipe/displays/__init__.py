@@ -1,8 +1,6 @@
-"""Display helpers — Rich formatters (internal; prefer ``fundamentals.financials.*.showXxx``)."""
+"""Public formatting functions and display types."""
 
-from .edgar import StatementKind, show_statement
+from .displays import showStatement
+from .objects import StatementKind
 
-__all__ = [
-    "StatementKind",
-    "show_statement",
-]
+__all__ = ["showStatement", "StatementKind"]

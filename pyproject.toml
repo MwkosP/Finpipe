@@ -9,6 +9,9 @@ dependencies = [
     "edgartools>=5.28.3",
     "rich>=13.0",
     "twine>=6.2.0",
+    "pandas>=2.0",
+    "yfinance>=0.2.65",
+    "ccxt>=4.4",
 ]
 
 
@@ -19,5 +22,3 @@ build-backend = "uv_build"
 [tool.uv.build-backend]
 module-name = "finpipe"
 module-root = ""
-
-

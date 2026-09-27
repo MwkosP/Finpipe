@@ -1,12 +1,5 @@
-from edgar import set_identity
+import finpipe as fp
 
-from finpipe.fundamentals.financials import show
-
-
-def main() -> None:
-    set_identity("yourmail@gmail.com")
-    show("NVDA", "income", headlines=True)
-
-
-if __name__ == "__main__":
-    main()
+# ______Technicals______
+ohlcv = fp.technicals.fetchOhlcv("NVDA", interval="1d", period="1mo")
+ohlcv.print()
