@@ -1,5 +1,13 @@
+"""Run a live order book stream."""
+
+import asyncio
+
 import finpipe as fp
 
-# ______Technicals______
-ohlcv = fp.technicals.fetchOhlcv("NVDA", interval="1d", period="1mo")
-ohlcv.print()
+
+def main() -> None:
+    asyncio.run(fp.technicals.streaming.streamOrderBook("BINANCE", "BTC-USDT"))
+
+
+if __name__ == "__main__":
+    main()
